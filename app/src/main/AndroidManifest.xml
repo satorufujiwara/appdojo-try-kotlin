@@ -22,6 +22,9 @@
         <activity android:name=".question.Question2Activity" />
         <activity android:name=".answer.Answer2Activity" />
 
+        <activity android:name=".question.Question3Activity" />
+        <activity android:name=".answer.Answer3Activity" />
+
     </application>
 
 </manifest>

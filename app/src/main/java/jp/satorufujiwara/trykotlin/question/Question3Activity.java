@@ -10,16 +10,20 @@ import android.widget.Toast;
 import jp.satorufujiwara.trykotlin.R;
 import jp.satorufujiwara.trykotlin.databinding.Question1ActivityBinding;
 
-public class Question2Activity extends AppCompatActivity {
+public class Question3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final Question1ActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.question2_activity);
+        final Question1ActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.question3_activity);
         binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Question2Activity.this, "Hello! Kotlin!", Toast.LENGTH_LONG).show();
+                if (binding.textView.getVisibility() == View.VISIBLE) {
+                    binding.textView.setVisibility(View.GONE);
+                } else {
+                    binding.textView.setVisibility(View.VISIBLE);
+                }
             }
         });
     }
