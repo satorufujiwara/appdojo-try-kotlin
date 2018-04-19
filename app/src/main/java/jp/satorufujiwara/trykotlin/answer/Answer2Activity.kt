@@ -6,13 +6,13 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.widget.toast
 import jp.satorufujiwara.trykotlin.R
-import jp.satorufujiwara.trykotlin.databinding.Question1ActivityBinding
+import jp.satorufujiwara.trykotlin.databinding.Question2ActivityBinding
 
 class Answer2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = DataBindingUtil.setContentView<Question1ActivityBinding>(this, R.layout.question2_activity)
+        val binding = DataBindingUtil.setContentView<Question2ActivityBinding>(this, R.layout.question2_activity)
         binding.button.setOnClickListener {
             toast(text = "Hello! Kotlin!", duration = Toast.LENGTH_LONG)
         }
