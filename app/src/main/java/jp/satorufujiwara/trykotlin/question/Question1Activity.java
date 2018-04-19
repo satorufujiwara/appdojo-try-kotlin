@@ -18,7 +18,8 @@ public class Question1Activity extends AppCompatActivity {
         binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                binding.textView.setText(binding.checkBox.isChecked() ? "Yes!" : "No!");
+                String result = binding.checkBox.isChecked() ? "Yes!" : "No!";
+                binding.textView.setText(result);
             }
         });
     }
