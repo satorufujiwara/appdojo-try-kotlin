@@ -5,7 +5,7 @@
 - Javaで書かれたActivityをKotlinへと置き換えてください。
 - 最初に「Code > Convert Java to Kotlin」を使うと楽です
 
-## Question1
+## [Question1](app/src/main/java/jp/satorufujiwara/trykotlin/question/Question1Activity.java)
 
 - Javaの三項演算子をKotlinへと置き換えます
 - [Android Kotlin Style Guide](https://android.github.io/kotlin-guides/style.html)を守ってください
