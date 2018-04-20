@@ -27,6 +27,7 @@
 
         <activity android:name=".question.Question4Activity" />
         <activity android:name=".answer.Answer4Activity" />
+        <activity android:name=".answer.Answer41Activity" />
 
     </application>
 
