@@ -10,22 +10,22 @@
 - Javaの三項演算子をKotlinへと置き換えます
 - [Android Kotlin Style Guide](https://android.github.io/kotlin-guides/style.html)を守ってください
 
-## Question2
+## [Question2](app/src/main/java/jp/satorufujiwara/trykotlin/question/Question2Activity.java)
 
 - Toastを表示する課題です
 - [Android KTX](https://github.com/android/android-ktx)を使いましょう
 
-## Question3
+## [Question3](app/src/main/java/jp/satorufujiwara/trykotlin/question/Question3Activity.java)
 
 - ボタンが押されたらTextViewのVisibilityを切り替えます
 - [Android KTX](https://github.com/android/android-ktx)を使いましょう
 
-## Question4
+## [Question4](app/src/main/java/jp/satorufujiwara/trykotlin/question/Question4Activity.java)
 
 - RecyclerViewを使った課題です
 - 慣れてる方はスコープ関数を使ってみましょう
 
-## Question5
+## [Question5](app/src/main/java/jp/satorufujiwara/trykotlin/question/Question5Activity.java)
 
 - ArchitectureComponentsのViewModelを初期化する課題です
 - viewModelプロパティはできればvalで宣言したいですね！
