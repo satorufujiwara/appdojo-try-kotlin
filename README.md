@@ -2,7 +2,8 @@
 
 [2018年4月24日開催のAPP DOJO](https://events.withgoogle.com/app-dojo-april-2018-2nd/)のワークショップ用課題です。
 
-Javaで書かれたActivityをKotlinへと置き換えてください。
+- Javaで書かれたActivityをKotlinへと置き換えてください。
+- 最初に「Code > Convert Java to Kotlin」を使うと楽です
 
 ## Question1
 
