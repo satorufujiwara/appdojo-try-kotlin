@@ -27,4 +27,4 @@ Javaで書かれたActivityをKotlinへと置き換えてください。
 ## Question5
 
 - ArchitectureComponentsのViewModelを初期化する課題です
-- ViewModelはできればvalにしたいですね！
+- viewModelプロパティはできればvalで宣言したいですね！
