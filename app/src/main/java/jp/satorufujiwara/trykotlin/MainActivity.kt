@@ -9,16 +9,10 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import jp.satorufujiwara.trykotlin.answer.Answer1Activity
-import jp.satorufujiwara.trykotlin.answer.Answer2Activity
-import jp.satorufujiwara.trykotlin.answer.Answer3Activity
-import jp.satorufujiwara.trykotlin.answer.Answer4Activity
+import jp.satorufujiwara.trykotlin.answer.*
 import jp.satorufujiwara.trykotlin.databinding.MainActivityBinding
 import jp.satorufujiwara.trykotlin.databinding.MainAdapterItemBinding
-import jp.satorufujiwara.trykotlin.question.Question1Activity
-import jp.satorufujiwara.trykotlin.question.Question2Activity
-import jp.satorufujiwara.trykotlin.question.Question3Activity
-import jp.satorufujiwara.trykotlin.question.Question4Activity
+import jp.satorufujiwara.trykotlin.question.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             items.add("Answer3" to Intent(this@MainActivity, Answer3Activity::class.java))
             items.add("Question4" to Intent(this@MainActivity, Question4Activity::class.java))
             items.add("Answer4" to Intent(this@MainActivity, Answer4Activity::class.java))
+            items.add("Question5" to Intent(this@MainActivity, Question5Activity::class.java))
+            items.add("Answer5" to Intent(this@MainActivity, Answer5Activity::class.java))
         }
     }
 }
